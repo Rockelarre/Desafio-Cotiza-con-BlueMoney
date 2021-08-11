@@ -9,5 +9,5 @@ child_process.exec(`node index.js cotizacion1 txt dolar 250000`,(error,stdout) =
     }
 
     // Devolviendo contenido del archivo por consola
-    console.log(`stdout: ${stdout}`);
+    console.log(`Resultado: ${stdout}`);
 });
